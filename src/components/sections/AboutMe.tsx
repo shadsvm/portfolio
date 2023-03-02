@@ -1,3 +1,7 @@
+import { FaReact, FaVuejs } from "react-icons/fa"
+import { SiTypescript } from "react-icons/si"
+import { TbBrandNextjs } from "react-icons/tb"
+
 const AboutMe = () => {
   return (
     <section
@@ -20,15 +24,21 @@ const AboutMe = () => {
           </h1>
         </div>
         <p>
-          I am a front-end developer from Poznan, Poland 🇵🇱 I have commercial
-          experience in creating web applications and a well-versed knowledge of
-          Vue, React, TypeScript, and other mentioned technologies.
+          I am an ambitious, diligent, and hard-working front-end developer from
+          Poznan, Poland 🇵🇱 Who is constantly expanding knowledge and improving
+          skills.
         </p>
         <p>
-          I am an ambitious, diligent, and hard-working person, who is
-          constantly expanding knowledge and improving skills. I am confident in
-          my ability to contribute to your team.
+          I have commercial experience in creating web applications and a
+          well-versed knowledge of Vue, React, TypeScript, and many other
+          frameworks and technologies.
         </p>
+        <div className="flex gap-4 text-3xl">
+          <SiTypescript className="text-sky-500" />
+          <FaVuejs className="text-green-500" />
+          <FaReact className="text-blue-400" />
+          <TbBrandNextjs className="text-white" />
+        </div>
       </div>
 
       <img
