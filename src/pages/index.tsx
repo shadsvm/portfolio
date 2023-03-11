@@ -1,6 +1,7 @@
 import Landing from "@/components/sections/Landing"
 import AboutMe from "@/components/sections/AboutMe"
 import Work from "@/components/sections/Work"
+import Projects from "@/components/sections/Projects"
 
 const Home = () => {
   return (
@@ -8,6 +9,7 @@ const Home = () => {
       <Landing />
       <AboutMe />
       <Work />
+      <Projects />
     </main>
   )
 }
