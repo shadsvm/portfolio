@@ -11,7 +11,7 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="mx-auto flex h-full max-w-3xl snap-center flex-col justify-between gap-8 p-5 "
+      className="mx-auto flex h-full max-w-3xl snap-center flex-col justify-between gap-8 p-5 pt-20 "
     >
       <div className="flex flex-col gap-10 py-10">
         <header className="flex w-full items-center justify-start gap-5 whitespace-nowrap text-xl">

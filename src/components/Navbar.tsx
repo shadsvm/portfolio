@@ -5,7 +5,7 @@ import { BiMenu } from "react-icons/bi"
 const Navbar = () => {
   const [menu, setMenu] = useState(false)
   return (
-    <div className="flex flex-col border-red-500 p-5 backdrop-blur-xl">
+    <div className="fixed inset-x-0 top-0 z-40 flex flex-col border-red-500 p-5 backdrop-blur-xl">
       <nav className="container mx-auto flex items-center justify-between">
         <Link href={"/"} className="font-['La_Belle_Aurore'] text-2xl">
           Samuel Kaminski
@@ -29,7 +29,7 @@ const Navbar = () => {
         </div>
       </nav>
       {menu && (
-        <nav className="flex flex-col gap-2">
+        <nav className="my-4 flex flex-col gap-4">
           <a onClick={() => setMenu(false)} href="#about">
             <span className="font-mono text-primary-400">01.</span> About me
           </a>
