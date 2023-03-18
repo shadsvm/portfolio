@@ -32,7 +32,8 @@ const AboutMe = () => {
         </div>
         <p>
           I am an ambitious, diligent, and hard-working front-end developer from
-          Poznan, Poland. I'm always eager to learn and explore new technologies
+          Poznan, Poland. I&apos;m always eager to learn and explore new
+          technologies
         </p>
         <p>
           I have commercial experience in creating web applications and

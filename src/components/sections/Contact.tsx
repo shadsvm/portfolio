@@ -15,7 +15,8 @@ const Contact = () => {
     >
       <div className="flex flex-col gap-10 py-10">
         <header className="flex w-full items-center justify-start gap-5 whitespace-nowrap text-xl">
-          <span className="font-mono text-primary-400">04.</span> What's next?
+          <span className="font-mono text-primary-400">04.</span> What&apos;s
+          next?
           <div className="w-full border border-gray-800"></div>
         </header>
         <div className="flex flex-col items-start gap-10">
