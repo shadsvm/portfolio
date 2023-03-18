@@ -109,10 +109,6 @@ const projects = [
         Icon: SiBootstrap,
         colors: "text-indigo-400",
       },
-      {
-        Icon: SiFirebase,
-        colors: "text-amber-500",
-      },
     ],
   },
 ]

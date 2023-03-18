@@ -3,6 +3,18 @@ import { MdOutlineArrowRight } from "react-icons/md"
 
 const jobs = [
   {
+    name: "WebWizards",
+    position: "Frontend Developer",
+    timeline: "03.2023 - present",
+    actions: [
+      "Preparation and/or modernization of websites",
+      "Creation of necessary software",
+      "Design of graphic elements, including animations, sliders, and applications",
+      "Ensuring their proper functioning",
+      "Solving any technical problems related to the projects being developed",
+    ],
+  },
+  {
     name: "codeclutch",
     position: "Frontend Developer",
     timeline: "10.2022 - 01.2023",
@@ -27,8 +39,8 @@ const jobs = [
     ],
   },
   {
-    name: "IT Specialist",
-    position: "AT Computers S.C.",
+    name: "AT Computers S.C.",
+    position: "IT Specialist",
     timeline: "12.2019 - 03.2021",
     actions: [
       "Developing Web application to store and manage informations about clients, devices and repair process",
@@ -44,17 +56,17 @@ const Work = () => {
   return (
     <section
       id="work"
-      className="flex-center mx-auto h-full max-w-2xl snap-center flex-col gap-8 p-5 "
+      className="flex-center mx-auto h-full max-w-3xl snap-center flex-col gap-12 p-5 lg:max-w-4xl "
     >
       <header className="flex w-full items-center justify-start gap-5 whitespace-nowrap text-xl">
         <span className="font-mono text-primary-400">02.</span> Where I’ve
         Worked
         <div className="w-full border border-gray-800"></div>
       </header>
-      <div className="flex w-full gap-4">
+      <div className="flex w-full gap-4 md:gap-6 lg:gap-8">
         <div
           id="companies"
-          className="flex  flex-col items-start justify-start"
+          className="flex  flex-col items-start justify-start lg:text-lg"
         >
           {jobs.map((company, index) => (
             <button
@@ -62,8 +74,8 @@ const Work = () => {
               onClick={() => setSelectedCompany(index)}
               className={`trans border-l-4 ${
                 selectedCompany === index
-                  ? "border-primary-500"
-                  : "border-gray-600"
+                  ? "border-primary-500 font-semibold"
+                  : "border-gray-700 text-gray-400"
               } px-4 py-3`}
             >
               {company.name}
@@ -74,7 +86,7 @@ const Work = () => {
           if (index === selectedCompany)
             return (
               <div className="flex flex-1 flex-col gap-1 " key={index}>
-                <header className="text-xl font-semibold">
+                <header className="text-xl font-semibold lg:text-2xl">
                   {company.position}
                 </header>
                 <div className="mb-2 text-sm text-gray-500">
@@ -82,7 +94,10 @@ const Work = () => {
                 </div>
                 {company.actions.length &&
                   company.actions.map((action, index) => (
-                    <div className="flex items-center gap-2" key={index}>
+                    <div
+                      className="mb-1 flex items-center gap-2 text-sm sm:text-base md:mb-2 lg:mb-3"
+                      key={index}
+                    >
                       <MdOutlineArrowRight className="text-xl" />
                       <p className="flex-1">{action}</p>
                     </div>

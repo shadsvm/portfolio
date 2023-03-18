@@ -1,5 +1,12 @@
-import { FaReact, FaVuejs } from "react-icons/fa"
-import { SiTypescript } from "react-icons/si"
+import { FaReact, FaVuejs, FaSass } from "react-icons/fa"
+import {
+  SiTypescript,
+  SiTailwindcss,
+  SiRedux,
+  SiFirebase,
+  SiPrisma,
+  SiMongodb,
+} from "react-icons/si"
 import { TbBrandNextjs } from "react-icons/tb"
 
 const AboutMe = () => {
@@ -25,19 +32,25 @@ const AboutMe = () => {
         </div>
         <p>
           I am an ambitious, diligent, and hard-working front-end developer from
-          Poznan, Poland 🇵🇱 Who is constantly expanding knowledge and improving
-          skills.
+          Poznan, Poland. I'm always eager to learn and explore new technologies
         </p>
         <p>
-          I have commercial experience in creating web applications and a
-          well-versed knowledge of Vue, React, TypeScript, and many other
-          frameworks and technologies.
+          I have commercial experience in creating web applications and
+          well-versed knowledge of Vue, React, and many other technologies. My
+          personal favourite tech stack is Next.js + TypeScript, I use it very
+          often along with Prisma to easily work with any database.
         </p>
-        <div className="flex gap-4 text-3xl">
+        <div className="flex justify-evenly text-3xl sm:justify-start sm:gap-6">
           <SiTypescript className="text-sky-500" />
           <FaVuejs className="text-green-500" />
           <FaReact className="text-blue-400" />
           <TbBrandNextjs className="text-white" />
+          <SiTailwindcss className="text-sky-500" />
+          <FaSass className="text-pink-500" />
+          <SiRedux className="text-purple-400" />
+          <SiPrisma className="text-white" />
+          <SiFirebase className="text-amber-500" />
+          <SiMongodb className="text-emerald-500" />
         </div>
       </div>
 
