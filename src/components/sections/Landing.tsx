@@ -3,10 +3,10 @@ import { AiOutlineArrowDown } from "react-icons/ai"
 const Landing = () => {
   return (
     <section className="flex-center relative h-full snap-center flex-col gap-2  text-center">
-      <p className="text-2xl font-semibold uppercase tracking-widest text-gray-400">
+      <p className="text-lg font-semibold uppercase tracking-widest text-gray-400 sm:text-2xl">
         developer you deserve
       </p>
-      <h1 className="text-gif text-5xl font-semibold sm:text-7xl">
+      <h1 className="text-gif text-3xl font-semibold xs:text-5xl sm:text-6xl md:text-7xl">
         Transforming your <br />
         ideas into reality
       </h1>

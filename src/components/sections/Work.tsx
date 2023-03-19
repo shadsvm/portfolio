@@ -56,17 +56,17 @@ const Work = () => {
   return (
     <section
       id="work"
-      className="flex-center mx-auto h-full max-w-3xl snap-center flex-col gap-12 p-5 lg:max-w-4xl "
+      className="flex-center mx-auto h-full max-w-3xl snap-center flex-col gap-6 overflow-hidden p-5 xs:gap-12 lg:max-w-4xl "
     >
       <header className="flex w-full items-center justify-start gap-5 whitespace-nowrap text-xl">
         <span className="font-mono text-primary-400">02.</span> Where I’ve
         Worked
         <div className="w-full border border-gray-800"></div>
       </header>
-      <div className="flex w-full gap-4 md:gap-6 lg:gap-8">
+      <div className="flex w-full gap-1 xs:gap-4 md:gap-6 lg:gap-8">
         <div
           id="companies"
-          className="flex  flex-col items-start justify-start lg:text-lg"
+          className="flex  flex-col items-start justify-start text-sm sm:text-base lg:text-lg"
         >
           {jobs.map((company, index) => (
             <button
@@ -95,7 +95,7 @@ const Work = () => {
                 {company.actions.length &&
                   company.actions.map((action, index) => (
                     <div
-                      className="mb-1 flex items-center gap-2 text-sm sm:text-base md:mb-2 lg:mb-3"
+                      className="mb-1 flex items-center gap-2 text-xs xs:text-sm sm:text-base md:mb-2 lg:mb-3"
                       key={index}
                     >
                       <MdOutlineArrowRight className="text-xl" />

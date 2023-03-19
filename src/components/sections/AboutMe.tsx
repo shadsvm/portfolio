@@ -26,7 +26,7 @@ const AboutMe = () => {
             className="aspect-square w-14 rounded-full object-cover ring ring-primary-500 lg:hidden"
             alt=""
           />
-          <h1 className="text-4xl font-semibold sm:text-5xl">
+          <h1 className=" text-3xl font-semibold xs:text-4xl sm:text-5xl">
             Samuel Kamiński
           </h1>
         </div>
@@ -40,7 +40,7 @@ const AboutMe = () => {
           personal favourite tech stack is Next.js + TypeScript, I use it very
           often along with Prisma to easily work with any database.
         </p>
-        <div className="flex justify-evenly text-3xl sm:justify-start sm:gap-6">
+        <div className="flex justify-between text-2xl xs:justify-evenly xs:text-3xl sm:justify-start sm:gap-6">
           <SiTypescript className="text-sky-500" />
           <FaVuejs className="text-green-500" />
           <FaReact className="text-blue-400" />
