@@ -117,22 +117,22 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      className="flex-center mx-auto h-full max-w-4xl snap-center flex-col gap-8 px-5 "
+      className="flex-center mx-auto h-full max-w-4xl snap-center flex-col    gap-3 p-5 sm:gap-8 "
     >
       <header className="flex w-full items-center justify-start gap-5 whitespace-nowrap text-xl">
         <span className="font-mono text-primary-400">03.</span> My projects
         <div className="w-full border border-gray-800"></div>
       </header>
 
-      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-6 md:gap-8">
+      <div className="grid max-w-md grid-cols-1 gap-2 sm:max-w-full sm:grid-cols-2  sm:gap-4 md:gap-8">
         {projects.map((project, index) => (
           <Link
             key={index}
             href={project.url}
-            className="trans flex flex-col gap-3 rounded border border-gray-800 bg-black p-5 hover:border-gray-300"
+            className="trans flex flex-col gap-1 rounded border border-gray-800 bg-black p-3 hover:border-gray-300 xs:p-4 sm:gap-3 sm:p-5"
           >
             <header className="flex items-center justify-between">
-              <h1 className="flex items-center gap-2 text-lg font-semibold sm:text-xl lg:text-lg ">
+              <h1 className="flex items-center gap-2 text-lg font-semibold md:text-xl lg:text-lg ">
                 <GoRepo />
                 {project.name}
               </h1>

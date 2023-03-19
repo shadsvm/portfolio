@@ -13,7 +13,7 @@ const Navbar = () => {
         <button onClick={() => setMenu(!menu)} className="text-2xl sm:hidden">
           <BiMenu />
         </button>
-        <div className="hidden sm:flex sm:gap-8">
+        <div className="hidden gap-8 md:flex">
           <a href="#about">
             <span className="font-mono text-primary-400">01.</span> About me
           </a>
