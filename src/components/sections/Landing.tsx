@@ -1,8 +1,8 @@
-import { AiOutlineArrowDown } from "react-icons/ai"
+// import { AiOutlineArrowDown } from "react-icons/ai"
 
 const Landing = () => {
   return (
-    <section className="flex-center relative h-full snap-center flex-col gap-2  text-center">
+    <section className="flex-center relative h-screen flex-col gap-2  text-center">
       <p className="text-lg font-semibold uppercase tracking-widest text-gray-400 sm:text-2xl">
         developer you deserve
       </p>
@@ -10,10 +10,12 @@ const Landing = () => {
         Transforming your <br />
         ideas into reality
       </h1>
-      <div className="flex-center absolute bottom-20 animate-bounce gap-2">
-        See more
-        <AiOutlineArrowDown />
-      </div>
+      {/*
+<div className="flex-center absolute bottom-20 animate-bounce gap-2">
+See more
+<AiOutlineArrowDown />
+</div>
+      */}
     </section>
   )
 }

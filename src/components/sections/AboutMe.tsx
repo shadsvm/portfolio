@@ -13,7 +13,7 @@ const AboutMe = () => {
   return (
     <section
       id="about"
-      className="flex-center mx-auto h-full snap-center flex-col gap-10  p-5 py-10 md:flex-row"
+      className="flex-center  h-screen flex-col gap-10  p-5  md:flex-row"
     >
       <div className="flex max-w-xl flex-col gap-8  text-justify">
         <header className="flex items-center justify-start gap-5 whitespace-nowrap text-xl">

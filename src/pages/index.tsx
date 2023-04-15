@@ -4,18 +4,16 @@ import Work from "@/components/sections/Work"
 import Projects from "@/components/sections/Projects"
 import Contact from "@/components/sections/Contact"
 import Navbar from "@/components/Navbar"
+import Experience from "@/components/sections/Experience"
 
 const Home = () => {
   return (
-    <div className="flex h-[100dvh] w-[100dvw] flex-col">
+    <div className="">
       <Navbar />
-      <main className="flex-1 snap-y snap-mandatory flex-col overflow-auto scroll-smooth">
-        <Landing />
-        <AboutMe />
-        <Work />
-        <Projects />
-        <Contact />
-      </main>
+      <Landing />
+      <AboutMe />
+      <Experience />
+      <Contact />
     </div>
   )
 }
