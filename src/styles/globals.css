@@ -44,10 +44,10 @@ input:focus {
   color: transparent;
 }
 
-.trans {
-  @apply transition duration-200;
+.sectionHeadText {
+  @apply text-4xl font-black text-white sm:text-5xl md:text-6xl;
 }
 
-.btn {
-  @apply rounded px-4 py-1 transition duration-200;
+.sectionSubText {
+  @apply text-sm uppercase tracking-wider text-gray-400 sm:text-lg;
 }

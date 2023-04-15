@@ -1,32 +1,12 @@
-import React from "react"
 import {
   VerticalTimeline,
   VerticalTimelineElement,
 } from "react-vertical-timeline-component"
-import { motion } from "framer-motion"
-
 import "react-vertical-timeline-component/style.min.css"
-
+import { motion } from "framer-motion"
 import { experience } from "../../constants"
+import { textVariant } from "../../utils/motion"
 import SectionWrapper from "../SectionWrapper"
-
-const textVariant = (delay?: any) => {
-  return {
-    hidden: {
-      y: -50,
-      opacity: 0,
-    },
-    show: {
-      y: 0,
-      opacity: 1,
-      transition: {
-        type: "spring",
-        duration: 1.25,
-        delay: delay,
-      },
-    },
-  }
-}
 
 const ExperienceCard = ({ experience }: { experience: any }) => {
   return (
@@ -51,7 +31,7 @@ const ExperienceCard = ({ experience }: { experience: any }) => {
       <div>
         <h3 className="text-[24px] font-bold text-white">{experience.title}</h3>
         <p
-          className="text-secondary text-[16px] font-semibold"
+          className="text-[16px] font-semibold text-gray-400"
           style={{ margin: 0 }}
         >
           {experience.company}
@@ -76,13 +56,9 @@ const Experience = () => {
   return (
     <>
       <SectionWrapper>
-        <motion.div variants={textVariant()}>
-          <p className="text-secondary text-center text-[14px] uppercase tracking-wider sm:text-[18px]">
-            What I have done so far
-          </p>
-          <h2 className="text-center text-[30px] font-black text-white xs:text-[40px] sm:text-[50px] md:text-[60px]">
-            Work Experience.
-          </h2>
+        <motion.div variants={textVariant()} className="space-y-2 text-center">
+          <p className="sectionSubText">What I have done so far</p>
+          <h2 className="sectionHeadText">Work Experience.</h2>
         </motion.div>
 
         <div className="mt-20 flex flex-col">

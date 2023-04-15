@@ -1,7 +1,5 @@
 import Landing from "@/components/sections/Landing"
-import AboutMe from "@/components/sections/AboutMe"
-import Work from "@/components/sections/Work"
-import Projects from "@/components/sections/Projects"
+import About from "@/components/sections/About"
 import Contact from "@/components/sections/Contact"
 import Navbar from "@/components/Navbar"
 import Experience from "@/components/sections/Experience"
@@ -11,7 +9,7 @@ const Home = () => {
     <div className="">
       <Navbar />
       <Landing />
-      <AboutMe />
+      <About />
       <Experience />
       <Contact />
     </div>
