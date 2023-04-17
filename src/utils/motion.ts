@@ -15,13 +15,13 @@ export const textVariant = (delay?: number) => {
     },
   }
 }
-
-export const fadeIn = (
-  direction?: string,
-  type?: string,
-  delay?: number,
+interface fadeInProps {
+  direction?: string
+  type?: string
+  delay?: number
   duration?: number
-) => {
+}
+export const fadeIn = ({ direction, type, delay, duration }: fadeInProps) => {
   return {
     hidden: {
       x: direction === "left" ? 100 : direction === "right" ? -100 : 0,

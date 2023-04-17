@@ -12,13 +12,11 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  background-image: url("/bg.png");
-  background-size: cover;
   @apply bg-black text-white;
 }
-
-* {
-  box-sizing: border-box;
+.bg {
+  background-image: url("/bg.png");
+  background-size: cover;
 }
 
 input:focus {

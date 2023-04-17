@@ -12,7 +12,7 @@ const About = () => {
       </motion.div>
 
       <motion.p
-        variants={fadeIn("", "", 0.1, 1)}
+        variants={fadeIn({ delay: 0.1, duration: 1 })}
         className="text-secondary mt-7 max-w-3xl leading-8 md:text-lg"
       >
         I'm a skilled software developer with experience in TypeScript and
@@ -23,7 +23,10 @@ const About = () => {
         to life!
       </motion.p>
 
-      <motion.div variants={fadeIn("up", "", 0.3, 1)} className="mt-10">
+      <motion.div
+        variants={fadeIn({ delay: 0.3, duration: 1 })}
+        className="mt-10"
+      >
         <TechSwiper />
       </motion.div>
     </SectionWrapper>

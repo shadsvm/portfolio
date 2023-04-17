@@ -5,7 +5,7 @@ import {
 import "react-vertical-timeline-component/style.min.css"
 import { motion } from "framer-motion"
 import { experience } from "../../constants"
-import { textVariant } from "../../utils/motion"
+import { fadeIn, textVariant } from "../../utils/motion"
 import SectionWrapper from "../SectionWrapper"
 
 const ExperienceCard = ({ experience }: { experience: any }) => {
@@ -61,7 +61,10 @@ const Experience = () => {
           <h2 className="sectionHeadText">Work Experience.</h2>
         </motion.div>
 
-        <div className="mt-20 flex flex-col">
+        <motion.div
+          variants={fadeIn({ delay: 0.8, duration: 1 })}
+          className="mt-20 flex flex-col"
+        >
           <VerticalTimeline>
             {experience.map((experience, index) => (
               <ExperienceCard
@@ -70,7 +73,7 @@ const Experience = () => {
               />
             ))}
           </VerticalTimeline>
-        </div>
+        </motion.div>
       </SectionWrapper>
     </>
   )
