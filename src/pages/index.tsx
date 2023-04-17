@@ -3,6 +3,7 @@ import About from "@/components/sections/About"
 import Contact from "@/components/sections/Contact"
 import Navbar from "@/components/Navbar"
 import Experience from "@/components/sections/Experience"
+import Projects from "@/components/sections/Projects"
 // import Image from "next/image"
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
       <Landing />
       <About />
       <Experience />
+      <Projects />
       <Contact />
     </main>
   )

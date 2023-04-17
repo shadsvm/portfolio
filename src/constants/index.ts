@@ -1,3 +1,118 @@
+import {
+  SiTypescript,
+  SiTailwindcss,
+  SiFirebase,
+  SiMongodb,
+  SiBootstrap,
+  SiJavascript,
+  SiReact,
+} from "react-icons/si"
+import { TbBrandNextjs } from "react-icons/tb"
+
+export const projects = [
+  {
+    name: "KanBox",
+    desc: "KanBox is a web-based kanban board application, It allows users to easily visualize their workflow, prioritize tasks, and collaborate with their team in real-time.",
+    url: "https://github.com/sam-kmn/kanbox",
+    img: "/projects/kanbox.png",
+    tech: [
+      {
+        Icon: SiTypescript,
+        colors: "text-sky-400",
+      },
+
+      {
+        Icon: TbBrandNextjs,
+        colors: "text-white",
+      },
+
+      {
+        Icon: SiTailwindcss,
+        colors: "text-sky-500",
+      },
+
+      {
+        Icon: SiFirebase,
+        colors: "text-amber-500",
+      },
+    ],
+  },
+
+  {
+    name: "TalkAbout",
+    desc: "Real-time chat web application. Messages are updated instantly across all connected users. Firebase provides the necessary infrastructure for message storage, authentication, and real-time updates.",
+    url: "https://github.com/sam-kmn/talkabout",
+    img: "/projects/talkabout.png",
+    tech: [
+      {
+        Icon: SiJavascript,
+        colors: "text-amber-400",
+      },
+
+      {
+        Icon: SiReact,
+        colors: "text-blue-400",
+      },
+
+      {
+        Icon: SiBootstrap,
+        colors: "text-indigo-400",
+      },
+      {
+        Icon: SiFirebase,
+        colors: "text-amber-500",
+      },
+    ],
+  },
+  {
+    name: "Moviehunt",
+    desc: "Find the most important informations and ratings about movies from biggest review-aggregation websites.",
+    url: "https://github.com/sam-kmn/moviehunt",
+    img: "/projects/moviehunt.png",
+    tech: [
+      {
+        Icon: SiJavascript,
+        colors: "text-amber-400",
+      },
+
+      {
+        Icon: SiReact,
+        colors: "text-blue-400",
+      },
+
+      {
+        Icon: SiBootstrap,
+        colors: "text-indigo-400",
+      },
+    ],
+  },
+  {
+    name: "Status",
+    desc: "Fully-featured social media application that provides user authentication, and CRUD functionality. All requests to the application are processed through an API that is integrated with MongoDB.",
+    url: "https://github.com/sam-kmn/status",
+    img: "/projects/status.png",
+    tech: [
+      {
+        Icon: SiTypescript,
+        colors: "text-sky-400",
+      },
+
+      {
+        Icon: TbBrandNextjs,
+        colors: "text-white",
+      },
+
+      {
+        Icon: SiTailwindcss,
+        colors: "text-sky-500",
+      },
+      {
+        Icon: SiMongodb,
+        colors: "text-emerald-500",
+      },
+    ],
+  },
+]
 export const experience = [
   {
     company: "WebWizards",
