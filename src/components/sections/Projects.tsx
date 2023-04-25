@@ -7,7 +7,7 @@ import { fadeIn, textVariant } from "../../utils/motion"
 
 const Projects = () => {
   return (
-    <SectionWrapper>
+    <SectionWrapper id="projects">
       <motion.div variants={textVariant()} className="space-y-2">
         <p className="sectionSubText">Introduction</p>
         <h2 className="sectionHeadText">My projects.</h2>

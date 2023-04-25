@@ -4,7 +4,6 @@ import {
   BsFacebook,
   BsYoutube,
   BsTwitter,
-  BsFillTelephoneFill,
   BsEnvelope,
   BsTelephone,
   // BsTiktok,
@@ -15,7 +14,7 @@ import SectionWrapper from "../SectionWrapper"
 
 const Contact = () => {
   return (
-    <SectionWrapper>
+    <SectionWrapper id="contact">
       <motion.div variants={textVariant()} className="space-y-2 text-center">
         <p className="sectionSubText">What&apos;s next?</p>
         <h2 className="sectionHeadText">Contact.</h2>
@@ -38,7 +37,7 @@ const Contact = () => {
           samuel.kaminski.webdev@gmail.com
         </a>
         <a
-          href=""
+          href="tel:+48530643361"
           className="flex items-center justify-center gap-2 font-medium transition hover:text-primary-500"
         >
           <BsTelephone />

@@ -152,7 +152,11 @@ export const experience = [
       path: "/favicon.ico",
       bg: "#000000",
     },
-    points: ["Built Immergas,"],
+    points: [
+      "Built Immergas web app (Next.js + Firebase)",
+      "Tutoring in the area of JS and React",
+      "Developed few static websites",
+    ],
   },
   {
     company: "Merito University",

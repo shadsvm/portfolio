@@ -5,7 +5,7 @@ import Image from "next/image"
 
 const Landing = () => {
   return (
-    <SectionWrapper>
+    <SectionWrapper id="hero">
       <div className="flex h-full items-center py-10 md:justify-between ">
         <div className="flex flex-col gap-4">
           <motion.p variants={textVariant()} className="sectionSubText">

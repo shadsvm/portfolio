@@ -5,7 +5,7 @@ import TechSwiper from "../TechSwiper"
 
 const About = () => {
   return (
-    <SectionWrapper>
+    <SectionWrapper id="about">
       <motion.div variants={textVariant()} className="space-y-2">
         <p className="sectionSubText">Introduction</p>
         <h2 className="sectionHeadText">Overview.</h2>
