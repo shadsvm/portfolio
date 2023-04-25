@@ -4,54 +4,78 @@ import {
   BsFacebook,
   BsYoutube,
   BsTwitter,
+  BsFillTelephoneFill,
+  BsEnvelope,
+  BsTelephone,
   // BsTiktok,
 } from "react-icons/bs"
+import { motion } from "framer-motion"
+import { textVariant, fadeIn } from "../../utils/motion"
+import SectionWrapper from "../SectionWrapper"
 
 const Contact = () => {
   return (
-    <section
-      id="contact"
-      className="mx-auto flex h-screen max-w-3xl snap-center flex-col justify-between gap-8 p-5 pt-20 "
-    >
-      <div className="flex flex-col gap-10 py-10">
-        <header className="flex w-full items-center justify-start gap-5 whitespace-nowrap text-xl">
-          <span className="font-mono text-primary-400">04.</span> What&apos;s
-          next?
-          <div className="w-full border border-gray-800"></div>
-        </header>
-        <div className="flex flex-col items-start gap-10">
-          <p className="text-xl text-gray-300">
-            Email is the best way to contact me, my inbox is always open. Feel
-            free to make use of the button below, I will try my best to answer
-            you as soon as possible.
-          </p>
-          <a
-            href="mailto:samuel.kaminski.webdev@gmail.com"
-            className="trans rounded border border-gray-300 px-5 py-2 font-mono text-lg text-gray-300 hover:bg-white hover:text-black"
-          >
-            Say Hello
-          </a>
-        </div>
-      </div>
-      <footer className="flex-center w-full flex-col gap-5 p-10 ">
+    <SectionWrapper>
+      <motion.div variants={textVariant()} className="space-y-2 text-center">
+        <p className="sectionSubText">What&apos;s next?</p>
+        <h2 className="sectionHeadText">Contact.</h2>
+      </motion.div>
+      <motion.div
+        variants={fadeIn({ delay: 0.3, duration: 1 })}
+        className="mx-auto flex w-full max-w-4xl flex-col gap-3 py-16 text-center text-xl"
+      >
+        <p className="mb-10 text-gray-200">
+          Thank you for visiting my portfolio! If you have any questions or
+          inquiries regarding my work or availability, please feel free to reach
+          out to me. I'd love to hear from you and discuss how we can work
+          together to bring your ideas to life.
+        </p>
+        <a
+          href="mailto:samuel.kaminski.webdev@gmail.com"
+          className="flex items-center justify-center gap-2 font-medium transition hover:text-primary-500"
+        >
+          <BsEnvelope />
+          samuel.kaminski.webdev@gmail.com
+        </a>
+        <a
+          href=""
+          className="flex items-center justify-center gap-2 font-medium transition hover:text-primary-500"
+        >
+          <BsTelephone />
+          (+48) 530 643 361
+        </a>
+      </motion.div>
+      <motion.footer
+        variants={fadeIn({ delay: 0.5, duration: 1 })}
+        className="flex-center w-full flex-col gap-5 "
+      >
         <div className="flex gap-7 text-2xl">
-          <a href="https://github.com/sam-kmn">
+          <a
+            href="https://github.com/sam-kmn"
+            className="transition hover:text-primary-500"
+          >
             <BsGithub />
           </a>
-          <a href="https://www.linkedin.com/in/samuel-kami%C5%84ski-203422225/">
+          <a
+            href="https://www.linkedin.com/in/samuel-kami%C5%84ski-203422225/"
+            className="transition hover:text-primary-500"
+          >
             <BsLinkedin />
           </a>
           <BsFacebook />
           <BsTwitter />
-          <a href="https://www.youtube.com/channel/UCNog3ab8Qcm_b7Mvon4_ooA">
+          <a
+            href="https://www.youtube.com/channel/UCNog3ab8Qcm_b7Mvon4_ooA"
+            className="transition hover:text-primary-500"
+          >
             <BsYoutube />
           </a>
         </div>
         <p className="text-sm text-gray-500">
           &#169; Samuel Kamiński, 2023. All rights reserved.
         </p>
-      </footer>
-    </section>
+      </motion.footer>
+    </SectionWrapper>
   )
 }
 

@@ -12,7 +12,7 @@ const SectionWrapper = ({ children, id = "" }: Props) => {
       initial="hidden"
       whileInView="show"
       viewport={{ once: true, amount: 0.25 }}
-      className={`relative z-10 mx-auto max-w-7xl px-6 py-10 sm:px-16 sm:py-16 lg:py-20 xl:py-24`}
+      className={`relative z-10 mx-auto max-w-7xl px-6 py-10 sm:px-16 sm:py-16 lg:py-20 xl:py-24 2xl:px-0`}
     >
       {children}
     </motion.section>
