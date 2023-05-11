@@ -12,7 +12,7 @@ const Landing = () => {
             Web Developer You were looking for!
           </motion.p>
           <motion.h1 variants={textVariant()} className="sectionHeadText">
-            Hi, I'm <span className="text-primary-500">Samuel</span>
+            Hi, I&apos;m <span className="text-primary-500">Samuel</span>
           </motion.h1>
           <motion.p
             variants={fadeIn({ delay: 0.3, duration: 1 })}

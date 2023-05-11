@@ -26,12 +26,12 @@ const Contact = () => {
         <p className="mb-10 text-gray-200">
           Thank you for visiting my portfolio! If you have any questions or
           inquiries regarding my work or availability, please feel free to reach
-          out to me. I'd love to hear from you and discuss how we can work
+          out to me. I&apos;d love to hear from you and discuss how we can work
           together to bring your ideas to life.
         </p>
         <a
           href="mailto:samuel.kaminski.webdev@gmail.com"
-          className="flex items-center justify-center gap-2 font-medium transition hover:text-primary-500"
+          className="flex items-center justify-center gap-2 text-sm font-medium transition hover:text-primary-500 sm:text-base"
         >
           <BsEnvelope />
           samuel.kaminski.webdev@gmail.com
