@@ -10,7 +10,7 @@ const Projects = () => {
     <SectionWrapper id="projects">
       <motion.div variants={textVariant()} className="space-y-2">
         <p className="sectionSubText">Introduction</p>
-        <h2 className="sectionHeadText">My projects.</h2>
+        <h2 className="sectionHeadText">My projects</h2>
       </motion.div>
 
       <div className="mt-20 flex flex-wrap justify-start gap-10">

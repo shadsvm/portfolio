@@ -8,7 +8,7 @@ const About = () => {
     <SectionWrapper id="about">
       <motion.div variants={textVariant()} className="space-y-2">
         <p className="sectionSubText">Introduction</p>
-        <h2 className="sectionHeadText">Overview.</h2>
+        <h2 className="sectionHeadText">Overview</h2>
       </motion.div>
 
       <motion.p

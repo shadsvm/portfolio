@@ -17,7 +17,7 @@ const Contact = () => {
     <SectionWrapper id="contact">
       <motion.div variants={textVariant()} className="space-y-2 text-center">
         <p className="sectionSubText">What&apos;s next?</p>
-        <h2 className="sectionHeadText">Contact.</h2>
+        <h2 className="sectionHeadText">Contact</h2>
       </motion.div>
       <motion.div
         variants={fadeIn({ delay: 0.3, duration: 1 })}

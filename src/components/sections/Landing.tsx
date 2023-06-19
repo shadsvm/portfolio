@@ -9,7 +9,7 @@ const Landing = () => {
       <div className="flex h-full items-center py-10 md:justify-between ">
         <div className="flex flex-col gap-4">
           <motion.p variants={textVariant()} className="sectionSubText">
-            Web Developer You were looking for!
+            Web Developer You are looking for!
           </motion.p>
           <motion.h1 variants={textVariant()} className="sectionHeadText">
             Hi, I&apos;m <span className="text-primary-500">Samuel</span>

@@ -57,7 +57,7 @@ const Experience = () => {
     <SectionWrapper id="work">
       <motion.div variants={textVariant()} className="space-y-2 text-center">
         <p className="sectionSubText">What I have done so far</p>
-        <h2 className="sectionHeadText">Work Experience.</h2>
+        <h2 className="sectionHeadText">Work Experience</h2>
       </motion.div>
 
       <motion.div
