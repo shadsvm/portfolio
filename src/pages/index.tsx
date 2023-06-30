@@ -4,7 +4,6 @@ import Contact from "@/components/sections/Contact"
 import Navbar from "@/components/Navbar"
 import Experience from "@/components/sections/Experience"
 import Projects from "@/components/sections/Projects"
-// import Image from "next/image"
 
 const Home = () => {
   return (
@@ -19,5 +18,4 @@ const Home = () => {
   )
 }
 
-// <Image src="/bg_copy.png" className="z-0" alt="bg" fill={true} />
 export default Home

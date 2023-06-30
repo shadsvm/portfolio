@@ -15,15 +15,15 @@ import SectionWrapper from "../SectionWrapper"
 const Contact = () => {
   return (
     <SectionWrapper id="contact">
-      <motion.div variants={textVariant()} className="space-y-2 text-center">
+      <motion.div variants={textVariant()} className="space-y-2 ">
         <p className="sectionSubText">What&apos;s next?</p>
         <h2 className="sectionHeadText">Contact</h2>
       </motion.div>
       <motion.div
         variants={fadeIn({ delay: 0.3, duration: 1 })}
-        className="mx-auto flex w-full max-w-4xl flex-col gap-3 py-16 text-center text-xl"
+        className="flex w-full max-w-4xl flex-col gap-6 py-12 text-xl 2xl:text-2xl"
       >
-        <p className="mb-10 text-gray-200">
+        <p className="mb-10 text-justify text-gray-200">
           Thank you for visiting my portfolio! If you have any questions or
           inquiries regarding my work or availability, please feel free to reach
           out to me. I&apos;d love to hear from you and discuss how we can work
@@ -31,14 +31,14 @@ const Contact = () => {
         </p>
         <a
           href="mailto:samuel.kaminski.webdev@gmail.com"
-          className="flex items-center justify-center gap-2 text-sm font-medium transition hover:text-primary-500 sm:text-base"
+          className="flex items-center justify-start gap-2  font-medium transition hover:text-primary-500 sm:text-base"
         >
           <BsEnvelope />
           samuel.kaminski.webdev@gmail.com
         </a>
         <a
           href="tel:+48530643361"
-          className="flex items-center justify-center gap-2 font-medium transition hover:text-primary-500"
+          className="flex items-center justify-start gap-2 font-medium transition hover:text-primary-500"
         >
           <BsTelephone />
           (+48) 530 643 361
@@ -49,26 +49,23 @@ const Contact = () => {
         className="flex-center w-full flex-col gap-5 "
       >
         <div className="flex gap-7 text-2xl">
-          <a
-            href="https://github.com/sam-kmn"
-            className="transition hover:text-primary-500"
-          >
+          <a href="https://github.com/sam-kmn" className="">
             <BsGithub />
           </a>
           <a
             href="https://www.linkedin.com/in/samuel-kami%C5%84ski-203422225/"
-            className="transition hover:text-primary-500"
+            className="transition hover:text-sky-500"
           >
             <BsLinkedin />
           </a>
-          <BsFacebook />
-          <BsTwitter />
           <a
             href="https://www.youtube.com/channel/UCNog3ab8Qcm_b7Mvon4_ooA"
-            className="transition hover:text-primary-500"
+            className="transition hover:text-red-500"
           >
             <BsYoutube />
           </a>
+          <BsFacebook />
+          <BsTwitter />
         </div>
         <p className="text-sm text-gray-500">
           &#169; Samuel Kamiński, 2023. All rights reserved.
