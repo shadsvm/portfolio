@@ -123,6 +123,7 @@ export const experience = [
       bg: "#202035",
     },
     points: [
+      "Tech Stack: React, Vue, Next, Nuxt, Astro, PHP",
       "Preparation and/or modernization of websites",
       "Creation of necessary software",
       "Design of graphic elements, including animations, sliders, and applications",
@@ -139,35 +140,33 @@ export const experience = [
       bg: "#202035",
     },
     points: [
-      "Built a frontend for cryptocurrency trading web platform",
-      "Frontend: Vue 3, Pinia, TailwindCSS",
-      "Backend: Laravel",
+      "Building cryptocurrency trading web platform",
+      "Tech Stack: Vue, Nuxt, Pinia, Tailwind CSS, Laravel",
     ],
   },
   {
     company: "Freelance",
     title: "Full-Stack Developer",
-    date: "05.2022 - 10.2022",
+    date: "04.2022 - 10.2022",
     icon: {
       path: "/favicon.ico",
       bg: "#000000",
     },
     points: [
-      "Built Immergas web app (Next.js + Firebase)",
-      "Tutoring in the area of JS and React",
-      "Developed few static websites",
+      "Designing, developing, and maintaining responsive and visually appealing websites and web applications that meet client specifications and user requirements. This involves both front-end and back-end development.",
+      "Tech Stack: React.js, Next.js, TailwindCSS, Prisma, Firebase, MongoDB, MySQL",
     ],
   },
   {
     company: "Merito University",
-    title: "Microsoft 365 Helpdesk",
+    title: "University Tech Support",
     date: "10.2021 - present",
     icon: {
       path: "/companies/merito.png",
       bg: "#FFFFFF",
     },
     points: [
-      "Solving problems that professors, students and deans office may encounter on Microsoft 365 platform",
+      "Solving problems that professors, students and deans office may encounter",
     ],
   },
   {
@@ -179,10 +178,11 @@ export const experience = [
       bg: "#FFFFFF",
     },
     points: [
-      "Developing Web application to store and manage informations about clients, devices and repair process",
+      "Tech Stack: Python, Vue, Vuex, SCSS",
+      "Developing software for managing clients, devices and repair process.",
       "Writing task automation scripts in Python",
-      "Assembling server hardware",
       "Optimization infrastructure of LAN networks",
+      "Assembling server hardware",
     ],
   },
 ]
