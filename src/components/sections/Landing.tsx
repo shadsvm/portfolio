@@ -1,4 +1,4 @@
-import { BsGithub, BsLinkedin } from "react-icons/bs"
+import { BsGithub, BsLinkedin, BsFileEarmarkMedical } from "react-icons/bs"
 import SectionWrapper from "../SectionWrapper"
 import Image from "next/image"
 import { motion } from "framer-motion"
@@ -8,7 +8,7 @@ const Landing = () => {
   return (
     <SectionWrapper id="hero">
       <div className="flex h-full items-center py-10 md:justify-between ">
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-6">
           <motion.p variants={textVariant()} className="sectionSubText">
             Web Developer You are looking for!
           </motion.p>
@@ -17,13 +17,15 @@ const Landing = () => {
           </motion.h1>
           <motion.p
             variants={fadeIn({ delay: 0.3, duration: 1 })}
-            className="font-medium text-gray-300 md:text-xl lg:text-2xl xl:text-3xl"
+            className="text-xl font-medium text-gray-300 lg:text-2xl xl:text-3xl"
           >
             Professional Frontend Developer from Poland,
-            <br /> with well-versed knowledge of Vue, React,
-            <br /> TypeScript, and many other technologies.
+            <br className="hidden sm:block" /> with well-versed knowledge of
+            Vue, React,
+            <br className="hidden sm:block" /> TypeScript, and many other
+            technologies.
           </motion.p>
-          <div className="mt-5 flex gap-10 text-xl sm:text-2xl">
+          <div className="mt-5 flex flex-wrap gap-10 text-xl sm:text-2xl">
             <motion.a
               variants={fadeIn({ delay: 0.6, duration: 1 })}
               href="https://www.github.com/sam-kmn"
@@ -42,6 +44,16 @@ const Landing = () => {
             >
               <BsLinkedin className="text-3xl sm:text-4xl" />
               Linkedin
+            </motion.a>
+
+            <motion.a
+              variants={fadeIn({ delay: 0.7, duration: 1 })}
+              href={"/cv.pdf"}
+              target="_blank"
+              className="flex items-center gap-3 transition hover:scale-105 hover:text-primary-500"
+            >
+              <BsFileEarmarkMedical className="text-3xl sm:text-4xl" />
+              Resume
             </motion.a>
           </div>
         </div>

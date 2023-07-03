@@ -21,28 +21,31 @@ const Contact = () => {
       </motion.div>
       <motion.div
         variants={fadeIn({ delay: 0.3, duration: 1 })}
-        className="flex w-full max-w-4xl flex-col gap-6 py-12 text-xl 2xl:text-2xl"
+        className="mb-10 flex w-full max-w-4xl flex-col gap-6 py-6 text-lg sm:py-12 lg:gap-10 lg:pb-24 xl:text-xl 2xl:text-2xl"
       >
-        <p className="mb-10 text-justify text-gray-200">
+        <p className=" text-justify text-gray-200">
           Thank you for visiting my portfolio! If you have any questions or
           inquiries regarding my work or availability, please feel free to reach
           out to me. I&apos;d love to hear from you and discuss how we can work
           together to bring your ideas to life.
         </p>
-        <a
-          href="mailto:samuel.kaminski.webdev@gmail.com"
-          className="flex items-center justify-start gap-2  font-medium transition hover:text-primary-500 sm:text-base"
-        >
-          <BsEnvelope />
-          samuel.kaminski.webdev@gmail.com
-        </a>
-        <a
-          href="tel:+48530643361"
-          className="flex items-center justify-start gap-2 font-medium transition hover:text-primary-500"
-        >
-          <BsTelephone />
-          (+48) 530 643 361
-        </a>
+        <div className="space-y-4 text-xl font-medium">
+          <a
+            href="mailto:samuel.kaminski.webdev@gmail.com"
+            className="flex items-center justify-start gap-3 transition hover:text-primary-500"
+          >
+            <BsEnvelope />
+            <p className="sm:hidden">Send Email</p>
+            <p className="hidden sm:block">samuel.kaminski.webdev@gmail.com</p>
+          </a>
+          <a
+            href="tel:+48530643361"
+            className="flex items-center justify-start gap-3 transition hover:text-primary-500"
+          >
+            <BsTelephone />
+            <span className="hidden sm:block">+48</span>530 643 361
+          </a>
+        </div>
       </motion.div>
       <motion.footer
         variants={fadeIn({ delay: 0.5, duration: 1 })}
