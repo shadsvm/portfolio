@@ -116,7 +116,7 @@ export const projects = [
 export const experience = [
   {
     company: "WebWizards",
-    title: "Frontend Developer",
+    title: "Front-end Developer",
     date: "03.2023 - present",
     icon: {
       path: "/companies/webwizards.ico",
@@ -133,7 +133,7 @@ export const experience = [
   },
   {
     company: "codeclutch",
-    title: "Frontend Developer",
+    title: "Front-end Developer",
     date: "10.2022 - 01.2023",
     icon: {
       path: "/companies/codeclutch.ico",
@@ -154,7 +154,7 @@ export const experience = [
     },
     points: [
       "Designing, developing, and maintaining responsive and visually appealing websites and web applications that meet client specifications and user requirements. This involves both front-end and back-end development.",
-      "Tech Stack: React.js, Next.js, TailwindCSS, Prisma, Firebase, MongoDB, MySQL",
+      "Tech Stack: Vue, React, Next, TailwindCSS, Prisma, Firebase, MongoDB, MySQL",
     ],
   },
   {
@@ -171,18 +171,18 @@ export const experience = [
   },
   {
     company: "AT Computers S.C.",
-    title: "IT Specialist",
+    title: "Front-end Developer",
     date: "12.2019 - 03.2021",
     icon: {
       path: "/companies/atcomp.png",
       bg: "#FFFFFF",
     },
     points: [
-      "Tech Stack: Python, Vue, Vuex, SCSS",
-      "Developing software for managing clients, devices and repair process.",
-      "Writing task automation scripts in Python",
-      "Optimization infrastructure of LAN networks",
-      "Assembling server hardware",
+      "Developing customer relationship management software and writing task automation scripts.",
+      "Tech Stack: Python, Vue, Nuxt, Vuex, Sass, Laravel",
+      // "Writing task automation scripts in Python",
+      // "Optimization infrastructure of LAN networks",
+      // "Assembling server hardware",
     ],
   },
 ]

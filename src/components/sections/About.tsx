@@ -13,14 +13,13 @@ const About = () => {
 
       <motion.p
         variants={fadeIn({ delay: 0.1, duration: 1 })}
-        className="text-secondary mt-7 max-w-3xl leading-8 md:text-lg"
+        className="text-secondary mt-7 max-w-3xl text-justify leading-8 md:text-lg xl:text-xl"
       >
-        I&apos;m a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Next and Nuxt.
-        I&apos;m always eager to learn, explore new technologies and collaborate
-        closely with clients to create efficient, scalable, and user-friendly
-        solutions that solve real-world problems. Let&apos;s work together to
-        bring your ideas to life!
+        I&apos;m a skilled software developer with commercial experience in
+        creating web applications and a well-versed knowledge of React, Vue,
+        TypeScript, and many other technologies. I&apos;m always eager to learn,
+        explore new technologies and collaborate closely with clients to bring
+        your ideas to life!
       </motion.p>
 
       <motion.div
