@@ -115,15 +115,28 @@ export const projects = [
 ]
 export const experience = [
   {
+    company: "Apkeo",
+    title: "Full-Stack Developer",
+    date: "Jul 2023 - present",
+    icon: {
+      path: "/companies/apkeo.svg",
+      bg: "#202035",
+    },
+    points: [
+      "Tech Stack: TypeScript, Node.js, Vue.js, Sass, MongoDB, Redis",
+      "Developing comprehensive web application that seamlessly integrates a variety of essential tools such as spreadsheets, maps, audio and video communication, forms, and more into a unified platform. This all-in-one solution also facilitates robust collaboration features tailored for businesses, enabling teams to work together efficiently and effectively within a single, organized environment"
+    ],
+  },
+  {
     company: "WebWizards",
     title: "Front-end Developer",
-    date: "03.2023 - present",
+    date: "Mar 2023 - Jul 2023",
     icon: {
       path: "/companies/webwizards.ico",
       bg: "#202035",
     },
     points: [
-      "Tech Stack: React, Vue, Next, Nuxt, Astro, PHP",
+      "Tech Stack: TypeScript, React.js, Vue.js, Next.js, Nuxt.js, Astro, TailwindCSS, Sas",
       "Preparation and/or modernization of websites",
       "Creation of necessary software",
       "Design of graphic elements, including animations, sliders, and applications",
@@ -134,33 +147,33 @@ export const experience = [
   {
     company: "codeclutch",
     title: "Front-end Developer",
-    date: "10.2022 - 01.2023",
+    date: "Oct 2022 - Feb 2023",
     icon: {
       path: "/companies/codeclutch.ico",
       bg: "#202035",
     },
     points: [
-      "Building cryptocurrency trading web platform",
-      "Tech Stack: Vue, Nuxt, Pinia, Tailwind CSS, Laravel",
+      "Tech Stack: TypeScript, Node.js, Nuxt.js, Pinia, TailwindCSS, MongoDB",
+      "Developing cutting-edge web application that serves as a centralized cryptocurrency trading platform. It unifies multiple digital asset exchanges into a single, user-friendly interface. Alongside essential trading tools, it incorporates advanced features including trading automation, enabling users to optimize their trading strategies",
     ],
   },
   {
     company: "Freelance",
     title: "Full-Stack Developer",
-    date: "04.2022 - 10.2022",
+    date: "Apr 2022 - Oct 2022",
     icon: {
       path: "/favicon.ico",
       bg: "#000000",
     },
     points: [
-      "Designing, developing, and maintaining responsive and visually appealing websites and web applications that meet client specifications and user requirements. This involves both front-end and back-end development.",
-      "Tech Stack: Vue, React, Next, TailwindCSS, Prisma, Firebase, MongoDB, MySQL",
+      "Tech Stack: TypeScript, React.js, Next.js, TailwindCSS, Firebase, MongoDB",
+      "Designing, developing, maintaining responsive and visually appealing web applications, these solutions are customized to precisely match the unique requirements of clients, ensuring optimal user experiences and long-term functionality"
     ],
   },
   {
     company: "Merito University",
-    title: "University Tech Support",
-    date: "10.2021 - present",
+    title: "Tech Support",
+    date: "Oct 2021 - present",
     icon: {
       path: "/companies/merito.png",
       bg: "#FFFFFF",
@@ -172,14 +185,14 @@ export const experience = [
   {
     company: "AT Computers S.C.",
     title: "Front-end Developer",
-    date: "12.2019 - 03.2021",
+    date: "Dec 2019 - Apr 2021",
     icon: {
       path: "/companies/atcomp.png",
       bg: "#FFFFFF",
     },
     points: [
-      "Developing customer relationship management software and writing task automation scripts.",
-      "Tech Stack: Python, Vue, Nuxt, Vuex, Sass, Laravel",
+      "Tech Stack: Tech Stack: Vue.js, Vuex, Sass, Python, Laravel",
+      "Developing customer relationship management (CRM) software. This software is designed to assist businesses in effectively managing and nurturing their relationships with customers, streamlining communication, tracking interactions, and enhancing overall customer satisfaction",
       // "Writing task automation scripts in Python",
       // "Optimization infrastructure of LAN networks",
       // "Assembling server hardware",
